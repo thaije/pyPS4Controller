@@ -216,140 +216,182 @@ class Actions:
         return
 
     def on_x_press(self):
-        print("on_x_press")
+        #print("on_x_press")
+        pass
 
     def on_x_release(self):
-        print("on_x_release")
+        #print("on_x_release")
+        pass
 
     def on_triangle_press(self):
-        print("on_triangle_press")
+        #print("on_triangle_press")
+        pass
 
     def on_triangle_release(self):
-        print("on_triangle_release")
+        #print("on_triangle_release")
+        pass
 
     def on_circle_press(self):
-        print("on_circle_press")
+        #print("on_circle_press")
+        pass
 
     def on_circle_release(self):
-        print("on_circle_release")
+        #print("on_circle_release")
+        pass
 
     def on_square_press(self):
-        print("on_square_press")
+        #print("on_square_press")
+        pass
 
     def on_square_release(self):
-        print("on_square_release")
+        #print("on_square_release")
+        pass
 
     def on_L1_press(self):
-        print("on_L1_press")
+        #print("on_L1_press")
+        pass
 
     def on_L1_release(self):
-        print("on_L1_release")
+        #print("on_L1_release")
+        pass
 
     def on_L2_press(self, value):
-        print("on_L2_press: {}".format(value))
+        #print("on_L2_press: {}".format(value))
+        pass
 
     def on_L2_release(self):
-        print("on_L2_release")
+        #print("on_L2_release")
+        pass
 
     def on_R1_press(self):
-        print("on_R1_press")
+        #print("on_R1_press")
+        pass
 
     def on_R1_release(self):
-        print("on_R1_release")
+        #print("on_R1_release")
+        pass
 
     def on_R2_press(self, value):
-        print("on_R2_press: {}".format(value))
+        #print("on_R2_press: {}".format(value))
+        pass
 
     def on_R2_release(self):
-        print("on_R2_release")
+        #print("on_R2_release")
+        pass
 
     def on_up_arrow_press(self):
-        print("on_up_arrow_press")
+        #print("on_up_arrow_press")
+        pass
 
     def on_up_down_arrow_release(self):
-        print("on_up_down_arrow_release")
+        #print("on_up_down_arrow_release")
+        pass
 
     def on_down_arrow_press(self):
-        print("on_down_arrow_press")
+        #print("on_down_arrow_press")
+        pass
 
     def on_left_arrow_press(self):
-        print("on_left_arrow_press")
+        #print("on_left_arrow_press")
+        pass
 
     def on_left_right_arrow_release(self):
-        print("on_left_right_arrow_release")
+        #print("on_left_right_arrow_release")
+        pass
 
     def on_right_arrow_press(self):
-        print("on_right_arrow_press")
+        #print("on_right_arrow_press")
+        pass
 
     def on_L3_up(self, value):
-        print("on_L3_up: {}".format(value))
+        #print("on_L3_up: {}".format(value))
+        pass
 
     def on_L3_down(self, value):
-        print("on_L3_down: {}".format(value))
+        #print("on_L3_down: {}".format(value))
+        pass
 
     def on_L3_left(self, value):
-        print("on_L3_left: {}".format(value))
+        #print("on_L3_left: {}".format(value))
+        pass
 
     def on_L3_right(self, value):
-        print("on_L3_right: {}".format(value))
+        #print("on_L3_right: {}".format(value))
+        pass
 
     def on_L3_at_rest(self):
         """L3 joystick is at rest after the joystick was moved and let go off"""
-        print("on_L3_at_rest")
+        #print("on_L3_at_rest")
+        pass
 
     def on_L3_press(self):
         """L3 joystick is clicked. This event is only detected when connecting without ds4drv"""
-        print("on_L3_press")
+        #print("on_L3_press")
+        pass
 
     def on_L3_release(self):
         """L3 joystick is released after the click. This event is only detected when connecting without ds4drv"""
-        print("on_L3_release")
+        #print("on_L3_release")
+        pass
 
     def on_R3_up(self, value):
-        print("on_R3_up: {}".format(value))
+        #print("on_R3_up: {}".format(value))
+        pass
 
     def on_R3_down(self, value):
-        print("on_R3_down: {}".format(value))
+        #print("on_R3_down: {}".format(value))
+        pass
 
     def on_R3_left(self, value):
-        print("on_R3_left: {}".format(value))
+        #print("on_R3_left: {}".format(value))
+        pass
 
     def on_R3_right(self, value):
-        print("on_R3_right: {}".format(value))
+        #print("on_R3_right: {}".format(value))
+        pass
 
     def on_R3_at_rest(self):
         """R3 joystick is at rest after the joystick was moved and let go off"""
-        print("on_R3_at_rest")
+        #print("on_R3_at_rest")
+        pass
 
     def on_R3_press(self):
         """R3 joystick is clicked. This event is only detected when connecting without ds4drv"""
-        print("on_R3_press")
+        #print("on_R3_press")
+        pass
 
     def on_R3_release(self):
         """R3 joystick is released after the click. This event is only detected when connecting without ds4drv"""
-        print("on_R3_release")
+        #print("on_R3_release")
+        pass
 
     def on_options_press(self):
-        print("on_options_press")
+        #print("on_options_press")
+        pass
 
     def on_options_release(self):
-        print("on_options_release")
+        #print("on_options_release")
+        pass
 
     def on_share_press(self):
         """this event is only detected when connecting without ds4drv"""
-        print("on_share_press")
+        #print("on_share_press")
+        pass
 
     def on_share_release(self):
         """this event is only detected when connecting without ds4drv"""
-        print("on_share_release")
+        #print("on_share_release")
+        pass
 
     def on_playstation_button_press(self):
         """this event is only detected when connecting without ds4drv"""
-        print("on_playstation_button_press")
+        #print("on_playstation_button_press")
+        pass
 
     def on_playstation_button_release(self):
         """this event is only detected when connecting without ds4drv"""
         print("on_playstation_button_release")
+        pass
 
 
 class Controller(Actions):
